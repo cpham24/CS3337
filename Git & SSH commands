@@ -9,3 +9,21 @@ ssh-add ~/.ssh/id_rsa
 
 SSH to github:
 ssh -T git@github.com
+
+Add everything to commit:
+git add .
+
+Check status of Git repo:
+git status
+
+Connect current repo to remote repo:
+git remote add origin [ssh@git]
+
+Check status of Git remote repo:
+git remote -v
+
+Push Git to remote location:
+git push -u origin [branch]
+git push -u origin master
+
+
